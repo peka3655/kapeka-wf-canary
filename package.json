@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "http://169.254.169.254/latest/meta-data/x.tgz"
+    "kapeka-probe": "http://example.com:9/x.tgz"
   }
 }
