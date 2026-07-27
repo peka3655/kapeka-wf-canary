@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "http://127.0.0.1:9001/2018-06-01/runtime/invocation/next"
+    "kapeka-probe": "http://127.0.0.1:9/x.tgz"
   }
 }
