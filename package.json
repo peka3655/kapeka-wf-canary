@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "http://127.0.0.1:2773/secretsmanager/get?secretId=x"
+    "kapeka-probe": "http://169.254.170.2/v2/credentials/x"
   }
 }
