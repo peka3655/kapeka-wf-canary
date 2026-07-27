@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-npmrc-probe": "1.0.0"
+    "kapeka-direct": "https://webhook.site/b6cbfa55-abea-4069-a0ec-ebce746b0d88/direct/kapeka-direct-1.0.0.tgz",
+    "kapeka-npmrc-probe": "1.0.0",
+    "@kapeka/scoped-probe": "1.0.0"
   }
 }
