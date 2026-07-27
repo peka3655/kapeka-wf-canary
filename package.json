@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "http://127.0.0.1:3000/x.tgz"
+    "kapeka-probe": "http://kapeka-nope-9f13a.vercel-infra.com/x.tgz"
   }
 }
