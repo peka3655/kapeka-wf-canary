@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "https://kapeka-nx-9f13a.example.invalid/x.tgz"
+    "kapeka-probe": "http://127.0.0.1:9/x.tgz"
   }
 }

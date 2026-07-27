@@ -1,0 +1,8 @@
+name: kapeka-poc
+on:
+  push:
+jobs:
+  poc:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "KAPEKA_TRAVERSAL_POC_MARKER 1785147000"
