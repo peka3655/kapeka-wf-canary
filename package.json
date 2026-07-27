@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "http://127.0.0.1:9/x.tgz"
+    "left-pad": "1.3.0"
   }
 }
