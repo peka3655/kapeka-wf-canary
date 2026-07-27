@@ -1,16 +1,14 @@
 {
-  "name": "kapeka-wf-canary",
-  "version": "9.9.9",
-  "private": true,
-  "kapekaMarker": "KAPEKA_PKG_OVERRIDE_PROBE",
+  "name": "x-kapeka",
+  "version": "9.9.10",
+  "kapekaMarker": "KAPEKA_MERGE_PROBE_2",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "kapeka-probe": "echo KAPEKA_SCRIPTS_DEEP_MERGE"
   },
   "dependencies": {
-    "next": "15.1.0",
-    "react": "^19",
-    "react-dom": "^19"
+    "left-pad": "1.3.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": []
   }
 }
