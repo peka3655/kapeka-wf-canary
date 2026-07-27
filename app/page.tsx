@@ -1,3 +1,3 @@
 export default function Page() {
-  return <main>kapeka canary</main>
+  return <main>kapeka canary probe2</main>
 }
