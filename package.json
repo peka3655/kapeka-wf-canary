@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "kapeka-probe": "https://webhook.site/b6cbfa55-abea-4069-a0ec-ebce746b0d88/t1/x.tgz"
+    "kapeka-probe": "https://kapeka-nx-9f13a.example.invalid/x.tgz"
   }
 }
